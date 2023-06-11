@@ -76,8 +76,8 @@ export default function Home() {
           <Image src={logo} width={126} height={48} alt=''></Image>
         </div>
         <form onSubmit={HandleClick} className='w-4/5 sm:w-3/5 xl:w-2/5'>
-          <input value={tasks} onChange={handleChange} className='text-white w-[638px] rounded-[8px] h-[54px] p-4 m-2 border-solid border-gray-700 bg-gray-500 placeholder:text-gray-300 outline-none' type="text" placeholder='Adicione uma nova tarefa'/>
-          <button type='submit' onClick={HandleClick} className='bg-blue-dark text-gray-100 h-[52px] w-[90px] rounded-[8px] font-bold text-sm'>Criar</button>
+          <input value={tasks} onChange={handleChange} className='text-white w-10/12 rounded-[8px] h-[54px] p-4 m-2 border-solid border-gray-700 bg-gray-500 placeholder:text-gray-300 outline-none' type="text" placeholder='Adicione uma nova tarefa'/>
+          <button type='submit' onClick={HandleClick} className='bg-blue-dark text-gray-100 w-1/12 h-[52px] rounded-[8px] font-bold text-sm'>Criar </button>
         </form>
       </header>
 
